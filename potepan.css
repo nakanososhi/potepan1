@@ -74,6 +74,24 @@ body {
   }
 }
 
+
+
+@media screen and (min-width: 768px) {
+    .HeaderLogo {
+        transition:opacity 0.2s;
+        transition-property: opacity;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .HeaderLogo:hover {
+        opacity: 0.8;
+    }
+}
+
 a {
     color: #000;
     text-decoration: none;
@@ -483,6 +501,22 @@ main {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .FirstViewContent__buttons a {
+        transition: opacity 0.2s;
+        transition-property: opacity;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .FirstViewContent__buttons a:hover {
+        opacity: 0.8;
+    }
+}
+
 .FirstViewCaption {
     color: #A2A2A4;
     font-size: 12px;
@@ -686,6 +720,22 @@ p {
 .About__button a span:last-child {
     font-size: 12px;
     line-height: 18px;
+}
+
+@media screen and (min-width:768px) {
+    .About__button a {
+        transition: opacity 0.2s;
+        transition-property: opacity;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .About__button a:hover {
+        opacity: 0.8;
+    }
 }
 
 
